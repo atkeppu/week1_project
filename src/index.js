@@ -13,6 +13,7 @@ function AddUnsortList() {
       {  
         if (confirm("Do you really wants to delete all the comments?") == true) 
         {
+          
           var ul = document.getElementById("UnsortList");
           ul.innerHTML = '';
         } 
